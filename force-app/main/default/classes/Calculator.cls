@@ -1,15 +1,13 @@
 /***************************************************************************
  * Version    Date            Name                   Description
  * =========================================================================
- * v1.0       08-07-2021      Developer2             Sub Method implemented
- * 
- */
+ * v1.0       08-07-2021      Developer1             Add Method implemented
+ ***************************************************************************/
 public with sharing class Calculator {
     public Calculator() {
-        
     }   
-    public integer sub(integer a, integer b){
-        return a-b;  
-    } 
+    public integer add(integer a, integer b){
+        return a+b;  
+    }   
 }
 
